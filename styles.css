@@ -1,5 +1,39 @@
-.cell {
-    width: 100px;
+body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align-last: center;
+}
+
+.left, .center {
+    border-right: 1px solid black
+}
+
+.board {
+    padding: 3em;
+    height: 100;
+}
+
+.row > div {
     height: 100px;
-    background-color: lightblue;
+    width: 100px;
+    float: left;
+}
+
+.row > div:hover {
+    cursor: pointer;
+    background-color: rgb(67, 209, 209);
+}
+
+.row {
+    clear: both;
+    width: 302px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.row > .top {
+    border-bottom: 2px solid black 
+}
+
+.row > .middle {
+    border-bottom: 2px solid black 
 }
